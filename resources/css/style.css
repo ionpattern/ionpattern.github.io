@@ -1,0 +1,11 @@
+h1, h2, h3 {
+  font-family: 'Bellefair', serif;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#email {
+  font-family: 'Inconsolata', monospace;
+}
