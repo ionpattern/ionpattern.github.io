@@ -19,6 +19,8 @@ h2 {
 }
 
 header {
+  top: 0px;
+  text-align: center;
   position: fixed;
   height: 120px;
   width: 100%;
@@ -28,6 +30,12 @@ header {
 .container {
   padding-top: 120px;
   width: 700px;
+  margin: 0 auto;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
 }
 
 #email {
