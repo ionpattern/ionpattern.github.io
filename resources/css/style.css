@@ -1,17 +1,33 @@
 * {
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 
 h1, h2 {
-  font-family: 'Bellefair', serif;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 h1 {
-  font-size: 42px;
+  font-size: 62px;
+  text-align: left;
+  display: block;
+  color: white;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 48px;
+}
+
+header {
+  position: fixed;
+  height: 120px;
+  width: 100%;
+  background-image: url("../images/Chips_small.jpg")
+}
+
+.container {
+  padding-top: 120px;
+  width: 700px;
 }
 
 #email {
