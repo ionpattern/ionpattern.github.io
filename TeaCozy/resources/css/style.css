@@ -1,0 +1,130 @@
+* {
+  font-family: Helvetica;
+  color: seashell;
+  font-size: 22px;
+  background-color: black;
+  text-align: center;
+}
+
+header {
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  opacity: 0.9;
+  border-bottom: 1px solid seashell;
+}
+
+header nav {
+  padding-right: 15px;
+}
+
+header nav a {
+  padding: 10px;
+}
+
+h2 {
+  font-size: 33px;
+}
+
+h2, h4 {
+  margin: 0px;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+footer {
+  height: 200px;
+}
+
+.section {
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.address {
+  width: 300px;
+  margin: 0px 20px;
+  opacity: 1;
+}
+
+.address p {
+  padding: 10px;
+}
+
+#logo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../images/img-mission-background.jpg")
+}
+
+#featured {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#teas_container img {
+  height: 200px;
+  width: 300px;
+  padding: 25px 15px 10px 15px;
+}
+
+#teas_container {
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#locations {
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  background-image: url("../images/img-locations-background.jpg")
+}
+
+#location_header {
+  background-color: transparent;
+  padding: 15px;
+}
+
+#address_container {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+#copyright {
+  text-align: left;
+  padding-top: 20px;
+}
