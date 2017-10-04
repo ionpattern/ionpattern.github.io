@@ -1,6 +1,6 @@
-* {
+html {
   font-family: 'Open Sans', sans-serif;
-  text-align: center;
+  font-size: 16px;
 }
 
 h1, h2 {
@@ -8,9 +8,9 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 62px;
-  text-align: left;
+  font-size: 4rem;
   color: white;
+  background-color: rgba(0, 0, 38, 0.7);
   text-shadow:
   -1px -1px 0 #000,
   1px -1px 0 #000,
@@ -19,42 +19,101 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 2.5rem;
 }
 
-header {
-  top: 0px;
-  left: 0px;
+p {
+  font-size: 1rem;
+}
+
+.jumbotron {
+  color: white;
   text-align: center;
-  position: fixed;
-  height: 120px;
-  width: 100%;
-  background-image: url("../images/Chips_small.jpg")
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/Chips_small.jpg");
 }
 
-.container {
-  padding-top: 120px;
-  width: 700px;
+.jumbotron p {
+  background-color: rgba(0, 0, 38, 0.6);
+}
+
+.section {
+  width: 60vw;
   margin: 0 auto;
 }
 
-#title {
-  display: flex;
-  justify-content: center;
+.image-box {
+  height: 12rem;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.unit {
+  padding-bottom: 1.5rem;
+}
+
+.unit p {
+  padding-top: 1rem;
+}
+
+#paris {
+  background-image: url("../images/paris.jpg");
+}
+
+#two_sandals {
+  background-image: url("../images/soup.jpg");
+}
+
+#beach_paradise {
+  background-image: url("../images/beach.jpeg");
+}
+
+#dasmoto {
+  background-image: url("../images/brushes.jpg");
+}
+
+#excursion {
+  background-image: url("../images/camp.jpg");
+}
+
+#broadway {
+  background-image: url("../images/identify.svg");
+}
+
+#my_times {
+  background-image: url("../images/myt-story.png");
+}
+
+#tea_cozy {
+  background-image: url("../images/tea-cozy.jpg");
+}
+
+#secret_agent_supply {
+  background-image: url("../images/moto.jpeg");
+}
+
+#tortoiseshell_optics {
+  background-image: url("../images/glasses-bg.png");
+}
+
+#fotomatic {
+  background-image: url("../images/fotomatic.jpg");
+}
+
+#colmar_academy {
+  background-image: url("../images/students.jpg");
+}
+
+#jumpstart {
+  background-image: url("../images/jumpstart.jpg");
+  background-position: bottom;
 }
 
 #email {
   font-family: 'Inconsolata', monospace;
-}
-
-@media only screen and (max-width: 1024px) {
-  h1 {
-    font-size: 32px;
-  }
-}
-
-@media only screen and (max-width: 470px) {
-  h1 {
-    font-size: 24px;
-  }
+  text-align: center;
+  padding-top: 5rem;
 }

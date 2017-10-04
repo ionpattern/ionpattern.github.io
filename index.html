@@ -2,56 +2,170 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>ionpattern's Codecademy Ready Projects</title>
-    <link rel="stylesheet" href="./resources/css/style.css">
+    <title>ionpattern's Web Projects</title>
     <link href="https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans|Rajdhani" rel="stylesheet">
+    <link rel="stylesheet" href="resources/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./resources/css/style.css">
   </head>
   <body>
-    <header>
-      <div class="headbar">
-        <h1 id="title">Coursework for Codecademy Pro Intensive</h1>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li><a href="#course">About the course</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#review">Review</a></li>
+        </ul>
+        <div class="navbar-header navbar-right">
+          <a class="navbar-brand" href="#contact">ionpattern</a>
+        </div>
       </div>
-    </header>
-
-    <div class="container">
-      <p><a href="http://pro.codecademy.com/intensive/build-websites-from-scratch/?utm_campaign=pro_intensive_bws&utm_source=codecademy_platform&utm_medium=course_page&utm_content=learn-html-css&utm_term">Codecademy Pro Intensive: Build Web Sites from Scratch</a> is an online, 10-week course that teaches the design and deployment of professional web sites using HTML, CSS, GitHub, and JavaScript.</p>
-      <p>I am documenting here my progress in the course.  I've built this web site myself using the knowledge I've gained of HTML and CSS, and deployed it myself using GitHub.</p>
-      <h2>Projects</h2>
-      <p>The sites below I created as I progressed in the course.  Throughout the course, I have regularly been guided in how to create sites, step by step, but the projects below mostly represent instances where I was given a site and asked to recreate it from scratch.</p>
-      <nav>
-        <h3>Unit 1: HTML</h3>
-        <p>This unit gave me the basics of HTML and building simple web sites.</p>
-        <a href="./Paris/index.html">Paris</a><br>
-        <a href="./TwoSandals/index.html">Two Sandals</a>
-        <h3>Unit 2: CSS</h3>
-        <p>This unit taught me to use Cascading Style Sheets to style web pages in simple ways, such as changing font family, color, and background images.</p>
-        <a href="./BeachParadise/index.html">Beach Paradise</a><br>
-        <a href="./Dasmoto/index.html">Dasmoto</a>
-        <h3>Unit 3: Command Line and Git</h3>
-        <p>In this unit, I continued to advance in HTML and CSS, and learned how to use the command line to deploy my sites to the internet, keeping track of versions so that changes could be rolled back.</p>
-        <a href="./Excursion/index.html">Excursion</a><br>
-        <a href="./Broadway/index.html">Broadway</a>
-        <h3>Unit 4: Display and Positioning</h3>
-        <p>Here I was taught how to position items on the page in a modern way. Blocks of text, images, etc. can all be placed with precision.</p>
-        <a href="./MyTimes/index.html">My Times</a><br>
-        <a href="./TeaCozy/index.html">Tea Cozy</a>
-        <h3>Unit 5: Responsive Design</h3>
-        <p>In this section, I learned how to make the layout of the page respond to the size of the screen, allowing the site to change displays to better serve mobile and tablet users. Resize the width of the projects below to see this in action.</p>
-        <a href="./SecretAgentSupply/index.html">Secret Agent Supply</a><br>
-        <a href="./TortoiseshellOptics/index.html">Tortoiseshell Optics</a>
-        <p>In the below project, I was given broken HTML and asked to fix it.</p>
-        <a href="./Fotomatic/index.html">Fotomatic</a>
-        <h3>Capstone Project</h3>
-        <p>This is the capstone project. It combines everything I learned above with additional features like a favicon, more advanced color choosing, and ARIA support for visually impaired users.</p>
-        <a href="./ColmarAcademy/index.html">Colmar Academy</a>
-        <h3>Final Project</h3>
-        <p>This is the final project. It incorporates everything above, plus the use of Bootstrap to create a clean layout and jQuery to animate the navigation bar.</p>
-        <a href="./Jumpstart/index.html">Jumpstart</a>
-      </nav>
-      <nav>
-        <p id="email">ionpattern@gmail.com</p>
-      </nav>
+    </nav>
+    <div class="jumbotron jumbotron-header">
+      <header>
+        <h1>Building Web Sites from Scratch</h1>
+        <p>My journey through Codecademy Pro Intensive</p>
+      </header>
     </div>
-
+    <div class="container-fluid section" id="course">
+      <h2>About the course</h2>
+      <p><a href="http://pro.codecademy.com/intensive/build-websites-from-scratch/?utm_campaign=pro_intensive_bws&utm_source=codecademy_platform&utm_medium=course_page&utm_content=learn-html-css&utm_term">Codecademy Pro Intensive: Build Web Sites from Scratch</a> is an online, 10-week course that teaches the creation and deployment of professional web sites using HTML, CSS, GitHub, Bootstrap, JavaScript, and jQuery.</p>
+      <p>I am documenting here my progress in the course.  I've built this web site myself using the knowledge I've gained and deployed it using GitHub.</p>
+    </div>
+    <div class="container-fluid section" id="projects">
+      <h2>Projects</h2>
+      <p>The sites below I created as I progressed in the course.  You'll see those in the beginning units are very basic, but they become progressively more complex and modern as the course advances.  Throughout the course, I have regularly been guided in how to create sites, step by step, but the projects below mostly represent instances where I was given a site and asked to recreate it from scratch.</p>
+      <div class="row">
+        <div class="unit col-md-6">
+          <h3>Unit 1: HTML</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <a href="./Paris/index.html">
+                <div class="image-box" id="paris">
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6">
+              <a href="./TwoSandals/index.html">
+                <div class="image-box" id="two_sandals">
+                </div>
+              </a>
+            </div>
+          </div>
+          <p>This unit gave me the basics of HTML and building simple web sites.</p>
+        </div>
+        <div class="unit col-md-6">
+          <h3>Unit 2: CSS</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <a href="./BeachParadise/index.html">
+                <div class="image-box" id="beach_paradise">
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6">
+              <a href="./Dasmoto/index.html">
+                <div class="image-box" id="dasmoto">
+                </div>
+              </a>
+            </div>
+          </div>
+          <p>I learned to use CSS to style web pages in simple ways, such as changing font family, color, and background images.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="unit col-md-6">
+          <h3>Unit 3: Command Line &amp; Git</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <a href="./Excursion/index.html">
+                <div class="image-box" id="excursion">
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6">
+              <a href="./Broadway/index.html">
+                <div class="image-box" id="broadway">
+                </div>
+              </a>
+            </div>
+          </div>
+          <p>In this unit, I continued to advance in HTML and CSS, and I learned how to use the command line to deploy my sites to the internet.</p>
+        </div>
+        <div class="unit col-md-6">
+          <h3>Unit 4: Display &amp; Positioning</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <a href="./MyTimes/index.html">
+                <div class="image-box" id="my_times">
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6">
+              <a href="./TeaCozy/index.html">
+                <div class="image-box" id="tea_cozy">
+                </div>
+              </a>
+            </div>
+          </div>
+          <p>Here I was taught how to position items on the page in a modern way. Blocks of text, images, etc. can all be placed with precision.</p>
+        </div>
+      </div>
+      <div class="unit">
+        <h3>Unit 5: Responsive Design</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="./SecretAgentSupply/index.html">
+              <div class="image-box" id="secret_agent_supply">
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="./TortoiseshellOptics/index.html">
+              <div class="image-box" id="tortoiseshell_optics">
+              </div>
+            </a>
+          </div>
+        </div>
+        <p>In this section, I learned how to make the layout of the page respond to the size of the screen, allowing the site to change displays to better serve mobile and tablet users. Resize the width of the projects below to see this in action.</p>
+      </div>
+      <div class="unit">
+        <h3>Unit 6: Debugging</h3>
+        <a href="./Fotomatic/index.html">
+          <div class="image-box" id="fotomatic">
+          </div>
+        </a>
+        <p>In this project, I was given broken HTML and asked to fix it.</p>
+      </div>
+      <div class="unit">
+        <h3>Unit 7: Design &amp; UI Feedback</h3>
+        <p>This unit focused only on lessons and did not have a project to complete.</p>
+      </div>
+      <div class="unit">
+        <h3>Unit 8: Font Awesome, Favicons, &amp; Accessibility</h3>
+        <a href="./ColmarAcademy/index.html">
+          <div class="image-box" id="colmar_academy">
+          </div>
+        </a>
+        <p>This project combines everything I learned above with additional features like a favicon, more advanced color choosing, and ARIA support for visually impaired users.</p>
+      </div>
+      <div class="unit">
+        <h3>Final Project: Bootstrap, JavaScript, &amp; jQuery</h3>
+        <a href="./Jumpstart/index.html">
+          <div class="image-box" id="jumpstart">
+          </div>
+        </a>
+        <p>For the final project, I used transitions to create more engaging buttons, Bootstrap to make a clean layout, and jQuery to animate the navigation bar and provide a moving carousel of images for the main banner. This project represents the sum total of everything I learned during the course.</p>
+      </div>
+    </div>
+    <div class="container-fluid section" id="review">
+      <h2>Review</h2>
+      <p>Overall, Codecademy did a stellar job with this course. They provided a series of guided missions designed to lead me step by step through everything I would need to know. Each successful completion of a step was rewarded with a new change on the site I was building, and most steps were accompanied by hints I could open if I got stuck. The course also came with access to a Slack group of other students, where I could go if I needed to ask for help. In general, this format was ideal for learning because I could go at my own pace, and I was taking continual actions rather than trying to passively absorb.</p>
+      <p>However, the course was not perfect, and there are several areas I hope that Codecademy improves in future versions. For example, most projects suffered from unclear instructions in multiple places, due to the design spec disagreeing with examples provided. Sometimes hints were missing or unclear, and sometimes turning to the Slack group still yielded no help. As the course advanced, particularly in the final unit, tasks became far more increasingly complex and the steps less well explained, and I often resorted to looking at shared code in order to take these last leaps. And finally, Codecademy provided no indicator of time to the deadline, except for a brief paragraph at the start of the course, so at the end I found myself wondering if I would complete it in time to receive a certificate.</p>
+      <p>Ultimately, I would highly recommend this course to anyone with an interest in creating web pages. It was as close to a clean download of a new skill into my brain as I have ever gotten. However, I would seriously consider moving quickly through the first, easier weeks, to build up extra time for the much more complex work at the end. Also, don't be afraid to talk to others and share Github repositories, as seeing others' code in action can be a huge help.</p>
+    </div>
+    <nav id="contact">
+      <p id="email">ionpattern@gmail.com</p>
+    </nav>
   </body>
 </html>
