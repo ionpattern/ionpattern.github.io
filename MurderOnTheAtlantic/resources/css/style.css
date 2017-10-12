@@ -1,0 +1,91 @@
+html {
+  font-size: 16px;
+}
+
+h1, h2 {
+  font-family: "Limelight", monospace;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+p, .navbar {
+  font-family: "Ubuntu", serif;
+}
+
+.navbar {
+  font-weight: bold;
+}
+
+.jumbotron {
+  height: 35rem;
+  text-align: center;
+  margin: 0 auto;
+  background-image: url("../images/sea.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.row {
+  padding-bottom: 2rem;
+}
+
+.image-box {
+  height: 20rem;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+#professor {
+  background-image: url("../images/professor.jpg");
+}
+
+#medium {
+  background-image: url("../images/medium.jpg");
+}
+
+#ringleader {
+  background-image: url("../images/ringleader.jpg");
+}
+
+#alys {
+  background-image: url("../images/alys2.jpg");
+}
+
+#widow {
+  background-image: url("../images/widow.jpg");
+}
+
+#entomologist {
+  background-image: url("../images/entomologist.jpg");
+}
+
+#rhys {
+  background-image: url("../images/rhys.jpg");
+}
+
+#captain {
+  background-image: url("../images/captain2.jpg");
+}
+
+#mate {
+  background-image: url("../images/mate1-2.jpg");
+}
+
+#mate2 {
+  background-image: url("../images/mate2.jpg");
+}
