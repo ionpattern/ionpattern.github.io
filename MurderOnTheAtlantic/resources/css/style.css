@@ -19,10 +19,28 @@ h2 {
 h3 {
   font-weight: bold;
   text-align: center;
+  font-family: "Lora", serif;
 }
 
 p, .navbar {
-  font-family: "Ubuntu", serif;
+  font-family: "Lora", serif;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.center {
+  text-align: center;
+}
+
+.script {
+  font-family: "Great Vibes", cursive;
+  font-size: 2rem;
 }
 
 .navbar {
@@ -88,4 +106,40 @@ p, .navbar {
 
 #mate2 {
   background-image: url("../images/mate2.jpg");
+}
+
+.image-box.pc {
+  height: 35rem;
+}
+
+.image-box.full-pc {
+  height: 50rem;
+}
+
+.bio {
+  text-align: center;
+  font-family: "Limelight", monospace;
+  font-size: 1.5rem;
+}
+
+.bio-row {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+#pcs {
+  width: 80vw;
+}
+
+#jake {
+  background-image: url("../images/jake.jpg");
+  background-position: 50%;
+}
+
+#system {
+  padding-bottom: 3rem;
+}
+
+.jumbotron-footer {
+  height: 2rem;
 }
