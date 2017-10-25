@@ -116,7 +116,7 @@ p {
   height: 50rem;
 }
 
-.bio {
+.bio, .character-sheet {
   text-align: center;
   font-family: "Limelight", monospace;
   font-size: 1.5rem;
@@ -134,6 +134,10 @@ p {
 #jake {
   background-image: url("../images/jake.jpg");
   background-position: 50%;
+}
+
+#lee {
+  background-image: url("../images/lee.png");
 }
 
 #system {
